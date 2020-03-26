@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway',"Sawarabi Gothic", sans-serif;
+}
+a{
+  color: white;
+  text-decoration:none;
+}
+
+.wf-sawarabigothic { font-family: "Sawarabi Gothic"; }
+/* ヘッダー部分 */
+.header{
+  position: fixed;   
+  height: 65px;
+  width: 100vw;
+  background-color: white;
+  z-index: 0;
+  opacity: 0.8;
+}
+.header-main{
+
+}
+/* リスト */
+
+.header-list{
+}
+.active{
+  height: 100vh;
+  background-color:black;
+  width: 25%; 
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.header-list-top{
+padding: 4px;
+height: 57px;
+text-align: right;
+border-bottom: 1px dotted #333;
+
+}
+.header-list-bottom{
+
+}
+/* ✕ボタン */
+.exit{
+  position: fixed;
+  right: 6px;
+  top: 6px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, .5);
+  line-height: 50px;
+  z-index: 999;
+  font-family: "Font Awesome 5 Free";
+
+}
+.exitbtn{
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+}
+
+
+/* ヘッダーのリスト */
+.header-list-main{
+  
+}
+.list-content{
+  border-bottom: 1px dotted #333;
+  color: white;
+  padding: 10px ;
+  opacity: 1;
+
+}
+.list-content:hover{
+  background-color: rgb(73, 72, 72);
+}
+/* 画面上部 */
+.top{
+  padding: 50px;
+  background-color:#232323;
+  height: 600px;
+  text-align: center;
+  color: white;
+  background-image:url(/Users/jotaroyamamoto/Desktop/プログラミング練習/portfolio/img/IMG_3070.JPG) ;
+  background-size:cover ;
+  background-position:center ;
+}
+.top:before{
+
+}
+.top-content{
+  padding-top: 100px;
+  font-size: 25px;
+
+}
+.title{
+  font-weight: bold;
+  font-size: 50px;
+  
+}
+.sub-title{
+  padding-top: 30px;
+  font-size: 40px;
+
+}
+.top-list{
+  list-style: none;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  
+  
+}
+.top-list li{
+  padding: 16px 32px;
+  font-size:35px;
+  
+}
+.top-list li:hover{
+
+  opacity: 0.6;
+  transition-duration: 0.3s;
+
+}
+/* 
+メイン部分 */
+.main{
+  background-color: white;
+  color: #444;
+}
+
+/* 自己紹介 */
+.profile{
+  background-color: white;
+  padding: 180px 20% 300px;
+}
+.profile-title{
+ font-size:3rem ;
+ font-weight: bold;
+ text-align: center;
+ margin-bottom:100px ;
+ align-items: center;
+}
+.profile-contents{
+  display: flex;
+  margin-top:30px;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1000px;
+}
+.profile-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-right:50px ;
+}
+.profile-core{
+  display: flex;
+  font-size: 20px;
+  font-weight: 540;
+}
+.one{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+/* スキル部分 */
+.skills{
+  height: 600px;
+  background-color: rgb(54, 117, 199);
+  padding: 75px 20%;
+
+}
+.skills-title{
+  font-size:3rem ;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom:100px ;
+  align-items: center;
+  color: white;
+}
+.skills-core{
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 540;
+  width:600px;
+  margin: 0 auto;
+}
+.skills-back{
+  width:80%;
+  background-color: rgba(0,0,0,0.55);
+  color: white;
+  border-radius:15px ;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.skills-back img{
+  height: 40px;
+  margin-right:2px ;
+}
+/* 制作物部分 */
+.works{
+  height: 800px;
+  background-color: white;
+  padding: 75px 20%;
+}
+.works-title{
+  font-size:3rem ;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom:100px ;
+  align-items: center;
+  
+}
+.works-core{
+  margin-top: 30px;
+
+}
+
+/* フッター部分 */
+.fotter{
+  background-color: #f8f9fa;
+  height: 300px;
+  text-align: center;
+  color: black;
+
+
+}
+.fotter-content{
+  padding-top: 50px;
+}
+.adress{
+  margin-bottom: 20px;
+}
+.mail{
+  padding: 20px;
+  color: black;
+}
+
+.tag{
+  margin-top:20px;
+}
+.tag ul{
+  margin: 0 auto;
+  list-style: none;
+}
+.tag li{
+  display: inline;
+}
+.face{
+  font-size: 3em;
+  padding-right: 5px;
+  color: rgb(190, 188, 188);
+}
+.face:hover{
+  color:rgb(68, 68, 68);
+}
+.twitter{
+  font-size: 3em;
+  padding-left: 5px;
+  color: rgb(190, 188, 188);
+}
+.twitter:hover{
+  color:rgb(68, 68, 68);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* リセットcss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
