@@ -83,7 +83,7 @@ border-bottom: 1px dotted #333;
 .top{
   padding: 50px;
   background-color:#232323;
-  height: 600px;
+  /* height: 600px; */
   text-align: center;
   color: white;
   background-image:url(/Users/jotaroyamamoto/Desktop/プログラミング練習/portfolio/img/IMG_3070.JPG) ;
@@ -94,32 +94,32 @@ border-bottom: 1px dotted #333;
 
 }
 .top-content{
-  padding-top: 100px;
+  margin-top: 100px;
   font-size: 25px;
 
 }
 .title{
   font-weight: bold;
-  font-size: 50px;
+  font-size: 72px;
   
 }
 .sub-title{
-  padding-top: 30px;
-  font-size: 40px;
+  margin-top: 90px;
+  font-size: 50px;
+  font-weight: bold;
 
 }
 .top-list{
   list-style: none;
   display: flex;
-  margin-top: 100px;
+  margin-top: 200px;
   justify-content: space-around;
-  
   
 }
 .top-list li{
   padding: 16px 32px;
   font-size:35px;
-  
+  font-weight: bold;
 }
 .top-list li:hover{
 
@@ -215,13 +215,24 @@ border-bottom: 1px dotted #333;
   font-size:3rem ;
   font-weight: bold;
   text-align: center;
-  margin-bottom:100px ;
+  margin-bottom:50px ;
   align-items: center;
   
 }
 .works-core{
   margin-top: 30px;
-
+}
+.work{
+  width : calc(100% / 3) ;
+  
+}
+.works-core img{
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.works-core:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
 
 /* フッター部分 */
@@ -237,11 +248,17 @@ border-bottom: 1px dotted #333;
   padding-top: 50px;
 }
 .adress{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+
 }
 .mail{
-  padding: 20px;
+  padding: 30 px;
   color: black;
+  font-weight: bold;
+  margin-bottom: 60px;
 }
 
 .tag{
@@ -254,22 +271,23 @@ border-bottom: 1px dotted #333;
 .tag li{
   display: inline;
 }
-.face{
-  font-size: 3em;
-  padding-right: 5px;
+.git{
+  font-size: 2.5em;
+  margin-right: 10px;
   color: rgb(190, 188, 188);
 }
-.face:hover{
+.git:hover{
   color:rgb(68, 68, 68);
 }
 .twitter{
-  font-size: 3em;
-  padding-left: 5px;
+  font-size: 2.5em;
+  margin-left: 10px;
   color: rgb(190, 188, 188);
 }
 .twitter:hover{
   color:rgb(68, 68, 68);
 }
+
 
 
 
