@@ -8,10 +8,24 @@ $(function(){
     return false;
   });
 
-  let tab = $(".exit");
-  function tabSwitch(){
-    $('.header-list').removeClass('active');
-    $('.header-list').addClass('active');
-  }
-  tab.click(tabSwitch);
+  // let tab = $(".exit");
+  // function tabSwitch(){
+  //   $('.header-list').removeClass('active');
+  //   $('.header-list').addClass('active');
+  // }
+  // tab.click(tabSwitch);
 });
+$(document).ready(function(){
+  var sides =["right"];
+  for (var i =0; i< sides.length; ++i){
+    var cSide = sides[i];
+    $(".sidebar" + cSide).sidebar({side: cSide});
+  }
+  $(".btn[data-action]").on("click",function(){
+    var $this =$(this);
+    var action = $this.attr("data-action");
+    var side = $this.attr("data-side");
+    $(".sidebar" + side).trigger("sidebar" + action);
+    return false;
+    })
+})

@@ -11,12 +11,7 @@ a{
 .wf-sawarabigothic { font-family: "Sawarabi Gothic"; }
 /* ヘッダー部分 */
 .header{
-  position: fixed;   
-  height: 65px;
-  width: 100vw;
-  background-color: white;
-  z-index: 0;
-  opacity: 0.8;
+
 }
 .header-main{
 
